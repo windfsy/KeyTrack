@@ -227,7 +227,7 @@ customColumnText={{date}} 📄 {{filename}}
 ### 🙏 致谢
 
 - 灵感来源于 Obsidian 社区优秀的 Dataview 插件
-- 感谢所有测试和反馈的早期用户
+- 感谢Kimi & DeepSeek
 
 ---
 
