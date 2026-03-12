@@ -1,0 +1,128 @@
+/* KeyTrack 插件样式 */
+
+.keytrack-container {
+  margin: 1em 0;
+  font-size: var(--font-text-size);
+  line-height: var(--line-height-normal);
+}
+
+.keytrack-loading {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 1em;
+  text-align: center;
+}
+
+.keytrack-empty {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 1em;
+  text-align: center;
+  border: 1px dashed var(--background-modifier-border);
+  border-radius: var(--radius-s);
+}
+
+.keytrack-error {
+  color: var(--text-error);
+  padding: 1em;
+  background-color: var(--background-modifier-error-rgb);
+  border-radius: var(--radius-s);
+  border: 1px solid var(--text-error);
+}
+
+.keytrack-debug {
+  color: var(--text-muted);
+  font-size: var(--font-smallest);
+  margin-top: 0.5em;
+  text-align: right;
+}
+
+.keytrack-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5em 0;
+}
+
+.keytrack-table thead {
+  background-color: var(--background-secondary);
+  border-bottom: 2px solid var(--background-modifier-border);
+}
+
+.keytrack-table th {
+  padding: 0.5em;
+  text-align: left;
+  font-weight: var(--bold-weight);
+  color: var(--text-normal);
+}
+
+.keytrack-table td {
+  padding: 0.5em;
+  border-bottom: 1px solid var(--background-modifier-border-hover);
+  vertical-align: top;
+}
+
+.keytrack-table tr:hover {
+  background-color: var(--background-secondary-alt);
+}
+
+.keytrack-col-source {
+  width: 120px;
+  min-width: 120px;
+  white-space: nowrap;
+}
+
+.keytrack-col-preview {
+  width: auto;
+}
+
+.keytrack-source a.internal-link {
+  color: var(--link-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.keytrack-source a.internal-link:hover {
+  color: var(--link-color-hover);
+  text-decoration: underline;
+}
+
+.keytrack-preview {
+  color: var(--text-normal);
+  font-family: var(--font-monospace);
+  font-size: 0.9em;
+}
+
+.keytrack-preview a.internal-link {
+  color: var(--link-color);
+  background-color: var(--background-primary-alt);
+  padding: 0 2px;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.keytrack-preview a.internal-link:hover {
+  color: var(--link-color-hover);
+  background-color: var(--background-modifier-hover);
+}
+
+.keytrack-footer {
+  color: var(--text-muted);
+  font-size: var(--font-smallest);
+  text-align: right;
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
+/* 响应式设计 */
+@media (max-width: 600px) {
+  .keytrack-col-source {
+    width: 100px;
+    min-width: 100px;
+  }
+  
+  .keytrack-table td, .keytrack-table th {
+    padding: 0.3em;
+    font-size: var(--font-smaller);
+  }
+}

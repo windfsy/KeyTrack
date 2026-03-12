@@ -1,0 +1,13 @@
+{
+  "defaultPreviewLength": 16,
+  "defaultMaxResults": 200,
+  "defaultShowAlias": true,
+  "defaultGroupByFile": true,
+  "defaultRemoveMarkdown": true,
+  "defaultExcludePatterns": [
+    "Templates/",
+    "Archive/",
+    ".obsidian/"
+  ],
+  "debugMode": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "keytrack",
+  "name": "KeyTrack",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Advanced keyword tracker with context preview - Search and display mentions across your vault with smart date extraction and grouping",
+  "author": "BlueMO",
+  "authorUrl": "",
+  "fundingUrl": "",
+  "isDesktopOnly": false
+}
